@@ -1,0 +1,65 @@
+.footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 8px 20px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer-contact a {
+  color: #f25c54;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.footer-contact a:hover {
+  color: #ff7b76;
+}
+
+.footer-socials {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-weight: 600;
+}
+
+.footer-socials a {
+  color: #ccc;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: #f25c54;
+}
+
+/* Иконки можно подключить через font-awesome или заменить на свои svg */
+
+.footer-copy {
+  margin-top: 12px;
+  color: #888;
+  font-size: 0.8rem;
+}
+
+.phone-number {
+  white-space: nowrap; /* не ломать номер */
+}
+
+/* Для мобильных — чтобы номер начинался с новой строки */
+@media (max-width: 480px) {
+
+  .phone-number {
+    display: block; /* перенос на новую строку целиком */
+    margin-top: 4px; /* немного отступ сверху */
+  }
+}

@@ -1,0 +1,58 @@
+/* src/components/EligibilityInfo/EligibilityInfo.css */
+.eligibility {
+  padding: 4rem 2rem;
+  background-color: #f7f8fc;
+  text-align: center;
+ 
+
+}
+
+.eligibility-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.eligibility h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.eligibility-subtitle {
+  color: #555;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.eligibility-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.eligibility-card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.eligibility-card:hover {
+  transform: translateY(-5px);
+}
+
+.eligibility-card span {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.eligibility-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.eligibility-card p {
+  font-size: 0.95rem;
+  color: #666;
+}

@@ -1,0 +1,165 @@
+/* HEADER CSS */
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 12px 0;
+  box-shadow: 0 6px 16px lab(58.3% 52.05 60.71 / 0.986);
+  z-index: 1000;
+  transition: all 0.3s ease;
+  margin: 0 auto -30px auto;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0e76a8;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  color: #333;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #0e76a8;
+}
+
+.btn-accent {
+  background-color: #0e76a8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.1s ease;
+}
+
+.btn-accent:hover {
+  background-color: #075d8f;
+  transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav {
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 12px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .btn-accent {
+    align-self: flex-end;
+    margin-top: 12px;
+  }
+}
+.header {
+  background-color: #fffdf9;
+  border-bottom: 1px solid #eee;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #222;
+  text-decoration: none;
+}
+
+.menu-toggle {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+}
+
+.nav {
+  display: none;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.nav.open {
+  display: flex;
+}
+
+.nav-link {
+  padding: 10px 0;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.btn-accent {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  text-align: center;
+  text-decoration: none;
+}

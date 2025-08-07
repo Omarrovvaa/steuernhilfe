@@ -1,0 +1,89 @@
+.documents-needed {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+  margin: 0 auto -70px auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 3rem auto;
+  color: #555;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.doc-card {
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+  transition: transform 0.2s ease-in-out;
+}
+
+.doc-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-circle {
+  font-size: 2.5rem;
+  background-color: #eef2f7;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.doc-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.doc-desc {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.download-btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}
+
+.final-note {
+  text-align: center;
+  font-size: 1rem;
+  color: #444;
+  max-width: 700px;
+  margin: 0 auto;
+  font-style: italic;
+}
