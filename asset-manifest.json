@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/steuernhilfe/static/css/main.cf23fc4c.css",
-    "main.js": "/steuernhilfe/static/js/main.8556d747.js",
+    "main.css": "/steuernhilfe/static/css/main.55ed2b15.css",
+    "main.js": "/steuernhilfe/static/js/main.66a9928f.js",
     "static/js/453.106603eb.chunk.js": "/steuernhilfe/static/js/453.106603eb.chunk.js",
     "index.html": "/steuernhilfe/index.html",
-    "main.cf23fc4c.css.map": "/steuernhilfe/static/css/main.cf23fc4c.css.map",
-    "main.8556d747.js.map": "/steuernhilfe/static/js/main.8556d747.js.map",
+    "main.55ed2b15.css.map": "/steuernhilfe/static/css/main.55ed2b15.css.map",
+    "main.66a9928f.js.map": "/steuernhilfe/static/js/main.66a9928f.js.map",
     "453.106603eb.chunk.js.map": "/steuernhilfe/static/js/453.106603eb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf23fc4c.css",
-    "static/js/main.8556d747.js"
+    "static/css/main.55ed2b15.css",
+    "static/js/main.66a9928f.js"
   ]
 }
